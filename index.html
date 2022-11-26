@@ -3,11 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="resources/tresor.ico" type="image/x-icon">
-    <title>Tresor | Emploitresor</title> <!-- 16 nov 2022-->
+    <link rel="icon" href="	resources/tresor.ico" type="image/x-icon">
+    <title>Tresor | Emploitresor</title> <!-- 26 nov 2022-->
 <style>
 	@import url('https://fonts.cdnfonts.com/css/open-sauce-one');
 	@import url('https://fonts.cdnfonts.com/css/now');
+	@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+	
 body{
 	background-image: url(img/pagina1.png);
 	margin: 0 auto;
@@ -18,7 +20,6 @@ body{
     height: 3960px;
 	position: relative;}
 *{
-	border: 1 solid yellowgreen;
 	height: 50px;
 	text-decoration:none;
 	font-size:20px;
@@ -44,7 +45,8 @@ nav1{
 .menu-horizontal > li > a{
 	color: #2e57a6;
 	display: block;
-	padding: 15px 20px;
+	padding: 15px 5px;
+	/*padding: 15px 20px;*/
 	text-decoration: none;}
 .menu-horizontal > li:hover{
 	opacity:0.7;
@@ -52,17 +54,18 @@ nav1{
 .menu-vertical{
 	color: #2e57a6;
 	position: absolute;
-	background-color: #2e57a6;
+	margin: 5px;
+	top: 100px;
 	display: none;
 	list-style: none;
 	width: 280px;}
 .menu-horizontal li:hover .menu-vertical{
 	display: block;}
 .menu-vertical li:hover{
-	background-color: rgba(0, 0, 0, .5);}
+	background-color: rgba(216, 181, 117, 0.5);}
 .menu-vertical li a{
 	display: block;
-    color: white;
+    color: #2e57a6;
 	text-decoration: none;
 	text-align: left;
 	padding: 20px 15px 15px 20px;}
@@ -100,12 +103,16 @@ header{
 					<ul class="menu-vertical">
 						<li><a href="services.html">Prestations de services</a></li>
 						<li><a href="candidat.html">Que sont vos drois</a></li></ul></li>
-    	        <li><a href="entreprise.html">Je suis un entreprise</a></li>
-    	        <li><a href="international.html">Recrutement international</a></li>
-    	        <li><a href="offres.html">Offres d'emploi</a></li>
-    	        <li><a href="propos.html">À propos de nous</a></li>
+				<li><a>|</a></li>
+				<li><a href="entreprise.html">Je suis un entreprise</a></li>
+    	        <li><a>|</a></li>
+				<li><a href="international.html">Recrutement international</a></li>
+    	        <li><a>|</a></li>
+				<li><a href="offres.html">Offres d'emploi</a></li>
+    	        <li><a>|</a></li>
+				<li><a href="propos.html">À propos de nous</a></li>
+				<li><a>|</a></li>
 				<li><a href="inscrire.html">S'inscrire</a></li>
-				<li></li>
 			</ul>
 		</nav>
 	</header>
